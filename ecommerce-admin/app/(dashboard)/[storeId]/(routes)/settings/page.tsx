@@ -1,6 +1,7 @@
 import prismadb from "@/lib/prismadb";
 import { auth } from "@clerk/nextjs";
 import { redirect } from "next/navigation";
+import { SettingForm } from "./components/settings-form";
 
 interface SettingPageProps {
   params: {
@@ -27,8 +28,10 @@ const SettingPage: React.FC<SettingPageProps> = async ({ params }) => {
   }
 
   return (
-    <div>
-      <div></div>
+    <div className="flex-col">
+      <div className="flex-1 space-y-4 p-8 pt-6">
+        <SettingForm initialData={store} />
+      </div>
     </div>
   );
 };
