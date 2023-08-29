@@ -1,3 +1,10 @@
 {
-  "cSpell.words": ["esnext", "hookform", "lucide", "prismadb", "zustand"]
+  "cSpell.words": [
+    "esnext",
+    "hookform",
+    "lucide",
+    "prismadb",
+    "tanstack",
+    "zustand"
+  ]
 }
