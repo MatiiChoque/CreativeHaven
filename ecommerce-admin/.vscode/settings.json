@@ -5,6 +5,7 @@
     "lucide",
     "prismadb",
     "tanstack",
+    "trpc",
     "zustand"
   ]
 }
