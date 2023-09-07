@@ -7,6 +7,7 @@
     "prismadb",
     "tanstack",
     "trpc",
+    "utqen",
     "zustand"
   ]
 }
