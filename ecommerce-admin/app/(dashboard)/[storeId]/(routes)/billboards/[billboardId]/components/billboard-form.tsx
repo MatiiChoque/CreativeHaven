@@ -108,7 +108,7 @@ export const BillboardForm: React.FC<BillboardFormProps> = ({
       <AlertModal
         isOpen={open}
         onClose={() => setOpen(false)}
-        onConfirm={() => {}}
+        onConfirm={onDelete}
         loading={loading}
       />
       <div className="flex items-center justify-between">
