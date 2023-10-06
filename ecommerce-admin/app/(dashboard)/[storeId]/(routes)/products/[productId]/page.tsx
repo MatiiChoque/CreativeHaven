@@ -11,7 +11,7 @@ const ProductPage = async ({
       id: params.productId,
     },
     include: {
-      image: true,
+      images: true,
     },
   });
 
@@ -35,10 +35,10 @@ const ProductPage = async ({
     <div className="flex-col">
       <div className="flex-1 space-y-4 p-8 pt-6">
         <ProductForm
+          initialData={product}
           categories={categories}
           colors={colors}
           sizes={sizes}
-          initialData={product}
         />
       </div>
     </div>
